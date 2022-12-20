@@ -1,0 +1,25 @@
+{   
+    "manifest_version": 2   ,
+
+    "name": "Get YT id",
+    "description": "Get YT id for summary generation",
+    "version": "1.3.1",
+    "icons": { "128": "images/logo2.png"},
+    "background": { 
+        "scripts": ["background.js"],
+        "persistent": false
+     },
+
+     "permissions": [
+        "tabs",
+        "downloads",
+        "declarativeContent"
+    ],
+
+    "page_action": { 
+        "default_name": "Get YT id", 
+        "default_icon": "images/logo48.png", 
+        "default_popup": "popup.html", 
+        "default_title": "get id!"  
+    }
+}
